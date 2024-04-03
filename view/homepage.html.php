@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -29,4 +26,3 @@
     <footer></footer>
 </body>
 </html>
->>>>>>> f3e084dde862e699a45d06fc43dfb4c7b13c1494
