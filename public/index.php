@@ -31,8 +31,15 @@ On va récupérer tous les articles par ordre de ar_datetime DESC avec les auteu
 
 $menu = getAllVisibleCategory($db);
 
+<<<<<<< HEAD
 // var_dump($menu);
 
+=======
+$homepageArticle = getHomepageArticle($db);
+
+// var_dump($menu);
+var_dump($homepageArticle);
+>>>>>>> bb095dc49b9f5626df7b8a956ac3cba1f8bf6732
 /*
 Appel de la vue homepage
 */
