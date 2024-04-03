@@ -34,9 +34,6 @@ Merci au site https://sql.sh/ pour les exemples d'articles utilisés en dévelop
 
 ### Exercice 1
 dans view\homepage.html.php, affichez le menu avec les catégories récupérés sur le contrôleur frontal, en faisant des liens de type 
-<<<<<<< HEAD
-    <a href="category=2">MySQL</a>
-=======
     `<a href="?category=2">MySQL</a>`
 
 ### Exercice 2
@@ -50,4 +47,3 @@ AINSI que les champs (us_id, us_login) de la table user (obligatoires : jointure
 si ils sont publiés (ar_is_published=1) 
         
         par ar_datetime DESC
->>>>>>> bb095dc49b9f5626df7b8a956ac3cba1f8bf6732
