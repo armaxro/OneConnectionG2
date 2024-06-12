@@ -42,8 +42,19 @@ On doit charger tous les articles (champs : ar_id, ar_title, ar_text(que les 260
 
 AINSI que les champs (us_id, us_login) de la table user (obligatoires : jointure interne: JOIN INNER JOIN) 
 
+<<<<<<< HEAD
         AINSI que les champs (cg_id, cd_name) de la table category (Non obligatoire, les articles sont prioritaires, jointure externe de type LEFT JOIN)
 
 si ils sont publiés (ar_is_published=1) 
         
         par ar_datetime DESC
+=======
+        AINSI que les champs (cg_id, cd_name) 
+        de la table category (Non obligatoire, 
+        les articles sont prioritaires, 
+        jointure externe de type LEFT JOIN)
+
+si ils sont publiés (ar_is_published=1) 
+        
+        par ar_datetime DESC
+>>>>>>> 1b0548c78ab9309000913dc8a20f94df797153e5
